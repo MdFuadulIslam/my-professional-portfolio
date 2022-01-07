@@ -5,10 +5,22 @@
 .half-width{
     width: 40%;
     float:left;
-    margin-left: 5% ;
+    margin-left:5% ;
     padding-left:2%;
 
 }
 h1 span{
     color: chartreuse;
+}
+.half-width img{
+    width:100%;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background:linear-gradient(45deg,lightsalmon,tomato); 
+    padding:10px,40px;
+    border-radius:5px;
+    color:white;
+    font-weight:700px;
 }
