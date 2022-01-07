@@ -1,19 +1,25 @@
-.font{
+body{
     font-family: 'Poppins', sans-serif;
+    margin:0%;
+    
 
 }
 .half-width{
-    width: 40%;
-    float:left;
-    margin-left:5% ;
-    padding-left:2%;
+    width: 50%;
+   
+    margin-left:4% ;
+    padding-left:6%;
 
 }
 h1 span{
     color: chartreuse;
 }
 .half-width img{
-    width:100%;
+    width:80%;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
 }
 
 .anchor-button{
@@ -23,4 +29,15 @@ h1 span{
     border-radius:5px;
     color:white;
     font-weight:700px;
+}
+
+.top-banner{
+
+    background-image:url(images/top-banner.png);
+    background-repeat:no-repeat;
+}
+.dream_big{
+    background-image:url(images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position: right;
 }
